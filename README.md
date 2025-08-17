@@ -29,8 +29,11 @@ A real-time desktop weather client developed in Java. This application provides 
 The design separates the GUI from the API logic for simplicity and modularity.
 
 +-------------------+ +------------------+ +--------------------+
+
 | WeatherApp |----->| WeatherService |----->| OpenWeatherMap API |
+
 | (JavaFX GUI) |<-----| (API Handler) |<-----| (External Service) |
+
 +-------------------+ +------------------+ +--------------------+
 
 
